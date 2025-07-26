@@ -19,7 +19,10 @@
 </head>
 
 <body>
-    <audio src="./Audio/song.mp3" controls autoplay hidden loop></audio>
+    <audio autoplay loop>
+        <source src="./Audio/song.mp3" type="audio/mpeg">
+        <source src="./Audio/song.wav" type="audio/wav">
+    </audio>
         <div id="wrapper">
             <div class="flag__birthday">
                 <img src="./images/1.png" alt="" width="350" class="flag__left">
